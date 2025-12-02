@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Burger, Container, Group, useMantineTheme } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import { MantineLogo } from "@mantinex/mantine-logo";
 import classes from "./HeaderSimple.module.css";
 import Link from "next/link";
 
