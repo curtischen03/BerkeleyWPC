@@ -4,8 +4,55 @@ import {
   MantineProvider,
   ColorSchemeScript,
   mantineHtmlProps,
+  createTheme,
 } from "@mantine/core";
-import { theme } from "../theme";
+import { HeaderSimple } from "../components/HeaderSimple";
+import { FooterSocial } from "../components/FooterSocial";
+
+const theme = createTheme({
+  fontFamily: "Malayalam MN, sans-serif", // main font
+  headings: { fontFamily: "Malayalam MN, sans-serif", fontWeight: "700" },
+  primaryColor: "blue", // We'll override it below with Azure
+  colors: {
+    black: [
+      "#1C1A1A",
+      "#2A2929",
+      "#3B3939",
+      "#4D4A4A",
+      "#5F5C5C",
+      "#717070",
+      "#858484",
+      "#999898",
+      "#ADACAC",
+      "#C2C1C1",
+    ],
+    gold: [
+      "#FFC72C",
+      "#FFD13C",
+      "#FFD94C",
+      "#FFE35C",
+      "#FFED6C",
+      "#FFF77C",
+      "#FFFF8C",
+      "#FFFF9C",
+      "#FFFFAC",
+      "#FFFFBC",
+    ],
+    azure: [
+      "#0072CE",
+      "#1A80D9",
+      "#3390E5",
+      "#4DA0F0",
+      "#66B0FC",
+      "#80C0FF",
+      "#99D0FF",
+      "#B3E0FF",
+      "#CCEFFF",
+      "#E6FFFF",
+    ],
+  },
+  primaryShade: 5, // choose a shade of azure if you use azure as primary
+});
 
 export const metadata = {
   title: "Mantine Next.js template",
@@ -24,7 +71,10 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <MantineProvider theme={theme}>
+          <HeaderSimple />
+          {children}
+        </MantineProvider>
       </body>
     </html>
   );
