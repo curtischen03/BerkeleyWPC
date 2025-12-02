@@ -1,6 +1,5 @@
 import { Card, Group, Image, RingProgress, Text, Stack } from "@mantine/core";
 import classes from "./CardsWithStats.module.css";
-import { title } from "process";
 
 interface PlayerInfo {
   name: string;
