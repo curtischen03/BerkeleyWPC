@@ -33,7 +33,11 @@ export function HeaderSimple() {
   return (
     <header className={classes.header}>
       <Container size="md" className={classes.inner}>
-        <img src="/berkeley_logo.png" alt="Berkeley WPC Logo" width={120} />
+        <img
+          src="/berkeley_logo.png"
+          alt="Berkeley WPC Logo"
+          className={classes.logo}
+        />
         <Group gap={5} visibleFrom="xs">
           {items}
         </Group>

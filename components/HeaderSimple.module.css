@@ -1,13 +1,14 @@
 .header {
   padding-top: 20px;
-  height: 100px;
+  padding-bottom: 20px;
+  height: 200px;
   background-color: var(--mantine-color-body);
   border-bottom: 1px solid
     light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
 }
 
 .inner {
-  height: 56px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
