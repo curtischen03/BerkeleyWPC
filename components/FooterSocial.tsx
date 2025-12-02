@@ -5,7 +5,6 @@ import {
   IconBrandYoutube,
 } from "@tabler/icons-react";
 import { ActionIcon, Container, Group, useMantineTheme } from "@mantine/core";
-import { MantineLogo } from "@mantinex/mantine-logo";
 import classes from "./FooterSocial.module.css";
 import { Text } from "@mantine/core";
 
