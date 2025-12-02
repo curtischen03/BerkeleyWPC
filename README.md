@@ -6,7 +6,7 @@ Get started with the template by clicking `Use this template` button on the top 
 
 # Bugs and To Do
 
-On mobile, shrinked navbar elements do not work properly
-Tab name is mantine next.js template
-Home button will go to roster but navbar remains on home
+On mobile, shrinked navbar elements do not work properly<br>
+Tab name is mantine next.js template<br>
+Home button will go to roster but navbar remains on home<br>
 Make logo bigger
