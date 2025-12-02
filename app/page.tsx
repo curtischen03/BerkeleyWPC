@@ -1,3 +1,12 @@
+"use client"; // <-- must be at the very top
+
+import { HeroContentLeft } from "../components/HeroContentLeft";
+import { useMantineTheme } from "@mantine/core";
 export default function HomePage() {
-  return <div>Home page</div>;
+  const theme = useMantineTheme();
+  return (
+    <div style={{ backgroundColor: theme.colors.azure[0] }}>
+      <HeroContentLeft />
+    </div>
+  );
 }
