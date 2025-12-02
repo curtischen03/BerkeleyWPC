@@ -55,7 +55,7 @@ const theme = createTheme({
 });
 
 export const metadata = {
-  title: "Mantine Next.js template",
+  title: "Berkeley WPC",
   description: "I am using Mantine with Next.js!",
 };
 

@@ -32,9 +32,7 @@ export function HeroContentLeft() {
           mt="xl"
           style={{ color: theme.colors.gold[4] }}
         >
-          A tradition of excellence, teamwork, and relentless pursuit of the
-          game. From fierce competitions to unforgettable moments in the pool,
-          we play with heart and pride.{" "}
+          Berkeley WPC will be competing in the 2026 National League.{" "}
         </Text>
 
         <Button
