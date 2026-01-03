@@ -35,7 +35,7 @@ export function HeroContentLeft() {
           Berkeley WPC will be competing in the 2026 National League.{" "}
         </Text>
 
-        <Button
+        {/* <Button
           component={Link}
           href="/roster"
           color="azure.0"
@@ -44,7 +44,7 @@ export function HeroContentLeft() {
           className={classes.control}
         >
           Meet the Team
-        </Button>
+        </Button> */}
       </Container>
     </div>
   );

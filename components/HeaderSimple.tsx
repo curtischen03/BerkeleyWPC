@@ -8,8 +8,8 @@ import Link from "next/link";
 
 const links = [
   { link: "/", label: "Home" },
-  { link: "/roster", label: "Roster" },
-  { link: "/schedule", label: "Schedule" },
+  //{ link: "/roster", label: "Roster" },
+  //{ link: "/schedule", label: "Schedule" },
 ];
 
 export function HeaderSimple() {
