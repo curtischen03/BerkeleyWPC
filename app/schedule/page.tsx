@@ -4,9 +4,9 @@ import Image from "next/image";
 import scheduleData from "../../data/schedule";
 
 export default function SchedulePage() {
-  const items = scheduleData.map((item) => (
+  const items = scheduleData.map((item, index) => (
     <Timeline.Item
-      key={item.title}
+      key={index}
       bullet={
         <Image
           src={item.icon}

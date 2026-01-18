@@ -1,22 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import {
-  Burger,
-  Container,
-  Group,
-  Collapse,
-  Stack,
-  Box,
-} from "@mantine/core";
+import { Burger, Container, Group, Collapse, Stack, Box } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import classes from "./HeaderSimple.module.css";
 import Link from "next/link";
 
 const links = [
   { link: "/", label: "Home" },
-  //{ link: "/roster", label: "Roster" },
-  //{ link: "/schedule", label: "Schedule" },
+  { link: "/roster", label: "Roster" },
+  { link: "/schedule", label: "Schedule" },
 ];
 
 export function HeaderSimple() {

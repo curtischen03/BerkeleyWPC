@@ -1,5 +1,74 @@
 const team = [
     {
+        name: "Hunter Freudenberger",
+        highSchool: "San Ramon Valley",
+        class: "2028",
+        instagram: "hunterf88_"
+    },
+    {
+        name: "Beckett Kaye",
+        highSchool: "Archie Williams",
+        class: "2028",
+        instagram: "beckettkaye3"
+    },
+    {
+        name: "Charlie Feaver",
+        highSchool: "San Ramon Valley",
+        class: "2028",
+        instagram: "charliefeaver1"
+    },
+    {
+        name: "Storm Jackson",
+        highSchool: "Redwood",
+        class: "2028",
+        instagram: "stormj28"
+    },
+    {
+        name: "Dylon Porter",
+        highSchool: "Monte Vista",
+        class: "2028",
+        instagram: "dylon.porter"
+    },
+    {
+        name: "Davis Hubbard",
+        highSchool: "San Ramon Valley",
+        class: "2028",
+        instagram: "dhubb7"
+    },
+    {
+        name: "Matteo Beltramo",
+        highSchool: "San Ramon Valley",
+        class: "2028",
+        instagram: "matteobe1tramo"
+    },
+    {
+        name: "Graham Hodson",
+        highSchool: "San Ramon Valley",
+        class: "2028",
+        instagram: "grahamhodson_"
+    },
+    {
+        name: "Jasper Feldman",
+        highSchool: "Tamalpais",
+        class: "2028",
+        instagram: ""
+    },
+    {
+        name: "Drew Vella",
+        highSchool: "Monte Vista",
+        class: "2028",
+        instagram: "drew.vella1"
+    },
+    {
+        name: "Chase Jackson",
+        highSchool: "Redwood",
+        class: "2030",
+        instagram: "chase_jackson22"
+    }
+];
+
+const legacyTeam = [
+    {
         "name": "Riley Clansen",
         "position": "Goalkeeper",
         "height": "6'2\"",
@@ -216,5 +285,6 @@ const team = [
         "src": "https://calbears.com/images/2025/8/25/William_Kelly_MWP-_Rosters_20250822_135513_20250822_CalMWP_Roster-400556_CHayne_zlzrQ.JPG?width=300&height=300&crop=center",
     }
 ];
+
 
 export default team;

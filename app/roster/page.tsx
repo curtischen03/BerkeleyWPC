@@ -1,9 +1,15 @@
 "use client";
 
 import { useMantineTheme, Container, Grid, Skeleton } from "@mantine/core";
-import { CardWithStats } from "../../components/CardsWithStats";
+import { CardWithoutPhoto } from "../../components/CardsWithoutPhoto";
 import team from "../../data/roster";
-const child = <CardWithStats playerInfo={team[1]} />;
+import { TableScrollArea } from "../../components/Table";
+const mock = {
+  name: "Hunter",
+  highSchool: "San Ramon Valley",
+  class: "2028",
+  instagram: "@hunter",
+};
 export default function RosterPage() {
   const theme = useMantineTheme();
   return (
@@ -12,7 +18,10 @@ export default function RosterPage() {
         <Grid>
           {team.map((player, index) => (
             <Grid.Col span={{ base: 12, xs: 3 }} key={index}>
-              <CardWithStats playerInfo={player} style={{ height: "100%" }} />
+              <CardWithoutPhoto
+                playerInfo={player}
+                style={{ height: "100%" }}
+              />
             </Grid.Col>
           ))}
           ;
