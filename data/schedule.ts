@@ -1,11 +1,11 @@
 const scheduleData = [
     {
-        title: "vs NorCal 16U at Los Altos High School (1 PM)",
+        title: "vs NorCal 16U at Woodside High School (1 PM)",
         date: "January 18, 2026",
         icon: "/circle-number-1.svg",
     },
     {
-        title: "vs Stanford 16U at Los Altos High School (5 PM)",
+        title: "vs Stanford 16U at Woodside High School (5 PM)",
         date: "January 18, 2026",
         icon: "/circle-number-2.svg",
     },
