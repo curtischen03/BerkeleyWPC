@@ -10,6 +10,7 @@ const links = [
   { link: "/", label: "Home" },
   { link: "/roster", label: "Roster" },
   { link: "/schedule", label: "Schedule" },
+  { link: "/results", label: "Results" },
 ];
 
 export function HeaderSimple() {
