@@ -31,9 +31,7 @@ export function HeroContentLeft() {
           size="xl"
           mt="xl"
           style={{ color: theme.colors.gold[4] }}
-        >
-          Berkeley WPC will be competing in the 2026 National League.{" "}
-        </Text>
+        ></Text>
 
         <Button
           component={Link}
