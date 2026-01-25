@@ -2,6 +2,7 @@
 import { Container, Timeline, Text, Title } from "@mantine/core";
 import Image from "next/image";
 import resultsData from "../../data/results";
+import css from "./results.module.css";
 
 export default function ResultsPage() {
   const items = resultsData.map((item, index) => (
@@ -43,6 +44,7 @@ export default function ResultsPage() {
       >
         {items}
       </Timeline>
+      <img src="bwpc_infographic.png" className={css.img} />
     </Container>
   );
 }
