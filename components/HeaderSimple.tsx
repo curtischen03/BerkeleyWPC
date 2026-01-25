@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { usePathname } from "next/navigation"; // Import this
 import { Burger, Container, Group, Collapse, Stack, Box } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import classes from "./HeaderSimple.module.css";
@@ -15,32 +15,16 @@ const links = [
 
 export function HeaderSimple() {
   const [opened, { toggle, close }] = useDisclosure(false);
-  const [active, setActive] = useState(links[0].link);
+  const pathname = usePathname(); // Get the current URL path
 
-  const desktopItems = links.map((link) => (
+  const items = links.map((link) => (
     <Link
       key={link.label}
       href={link.link}
       className={classes.link}
-      data-active={active === link.link || undefined}
-      onClick={() => {
-        setActive(link.link);
-      }}
-    >
-      {link.label}
-    </Link>
-  ));
-
-  const mobileItems = links.map((link) => (
-    <Link
-      key={link.label}
-      href={link.link}
-      className={classes.link}
-      data-active={active === link.link || undefined}
-      onClick={() => {
-        setActive(link.link);
-        close();
-      }}
+      // Check if current pathname matches the link
+      data-active={pathname === link.link || undefined}
+      onClick={close} // Just close the mobile menu; no need to set state!
     >
       {link.label}
     </Link>
@@ -56,7 +40,7 @@ export function HeaderSimple() {
             className={classes.logo}
           />
           <Group gap={5} visibleFrom="xs">
-            {desktopItems}
+            {items}
           </Group>
 
           <Burger opened={opened} onClick={toggle} hiddenFrom="xs" size="sm" />
@@ -64,7 +48,7 @@ export function HeaderSimple() {
       </header>
       <Collapse in={opened} hiddenFrom="xs">
         <Stack align="center" gap="md" py="md">
-          {mobileItems}
+          {items}
         </Stack>
       </Collapse>
     </Box>
