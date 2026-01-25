@@ -21,6 +21,7 @@ export default function RosterPage() {
               <CardWithoutPhoto
                 playerInfo={player}
                 style={{ height: "100%" }}
+                number={index + 1}
               />
             </Grid.Col>
           ))}

@@ -11,6 +11,7 @@ interface PlayerInfo {
 interface CardWithStatsProps {
   playerInfo: PlayerInfo;
   style?: React.CSSProperties;
+  number: number;
 }
 
 export function CardWithoutPhoto(props: CardWithStatsProps) {
@@ -41,7 +42,7 @@ export function CardWithoutPhoto(props: CardWithStatsProps) {
     >
       <Group justify="space-between" my="lg">
         <Text className={classes.title} size="xl">
-          {props.playerInfo.name}
+          <strong>#{props.number}</strong> {props.playerInfo.name}
         </Text>
       </Group>
       <Card.Section className={classes.footer} style={{ flexGrow: 1 }}>
