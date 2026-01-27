@@ -8,12 +8,9 @@ export default function SchedulePage() {
     <Timeline.Item
       key={index}
       bullet={
-        <Image
-          src={item.icon}
-          alt={`${item.title} icon`}
-          width={24}
-          height={24}
-        />
+        <Text size="xs" fw={700} c="blue">
+          {index + 1}
+        </Text>
       }
       title={item.title}
     >
@@ -38,6 +35,8 @@ export default function SchedulePage() {
           },
           itemBullet: {
             backgroundColor: "white",
+            // Added a border so the white circle is visible against white backgrounds
+            border: "2px solid var(--mantine-color-blue-filled)",
           },
         }}
       >
