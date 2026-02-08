@@ -3,43 +3,48 @@ import React, { useState, useEffect } from "react";
 import { useMantineTheme, Container, SimpleGrid, Modal } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import css from "./photos.module.css";
-import Image from "next/image";
 
-// Add priority: boolean to your interface
-interface PhotoCardProps {
-  src: string;
-  priority?: boolean;
-}
-
-function PhotoCard({ src, priority = false }: PhotoCardProps) {
+function PhotoCard({ src }: { src: string }) {
   const [opened, { open, close }] = useDisclosure(false);
-
   return (
     <>
-      <Modal opened={opened} onClose={close} size="auto" centered padding={0}>
-        <div style={{ position: "relative", width: "90vw", height: "80vh" }}>
-          <Image
-            src={src}
-            alt="Full size"
-            fill
-            style={{ objectFit: "contain" }}
-          />
-        </div>
+      <Modal
+        opened={opened}
+        onClose={close}
+        size="auto"
+        centered
+        padding={0} // Keeps the image flush with the modal edges
+        withCloseButton={true}
+        /* Overriding standard Mantine header styles */
+        styles={{
+          header: {
+            position: "absolute",
+            top: 10,
+            right: 10,
+            backgroundColor: "transparent",
+            zIndex: 100,
+          },
+          close: {
+            backgroundColor: "rgba(0, 0, 0, 0.4)", // Dark circle for visibility
+            color: "white",
+            borderRadius: "50%",
+            // Hover state for the standard button
+            "&:hover": {
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+            },
+          },
+        }}
+      >
+        <img className={css.imgModal} src={src} alt="Full size" />
       </Modal>
 
-      <div
-        className={css.imgWrapper}
-        onClick={open}
-        style={{ position: "relative", height: "300px" }}
-      >
-        <Image
-          src={src}
-          alt="Thumbnail"
-          fill
-          priority={priority} // Passing it here fixes the error
-          sizes="(max-width: 768px) 50vw, 300px"
+      <div className={css.imgWrapper}>
+        <img
           className={css.img}
-          style={{ objectFit: "cover" }}
+          src={src}
+          onClick={open}
+          alt="Thumbnail"
+          loading="lazy" // Native Lazy Loading
         />
       </div>
     </>
@@ -78,13 +83,8 @@ export default function ResultsPage() {
           }}
         >
           {photos.map((src, index) => (
-            <PhotoCard
-              key={index}
-              src={src}
-              // This tells Next.js to preload the first 4 images immediately
-              priority={index < 4}
-            />
-          ))}{" "}
+            <PhotoCard key={index} src={src} />
+          ))}
         </SimpleGrid>
       </Container>
     </div>
