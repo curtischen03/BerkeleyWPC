@@ -74,7 +74,7 @@ export default function ResultsPage() {
       <Container fluid p="md">
         {/* SimpleGrid handles the 2-column mobile vs fixed-size desktop logic */}
         <SimpleGrid
-          cols={{ base: 2, sm: "auto" }}
+          cols={{ base: 2, sm: 5 }}
           spacing="md"
           verticalSpacing="md"
           // This allows desktop images to maintain their size while mobile fills the 2 columns
