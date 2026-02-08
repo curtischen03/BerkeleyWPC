@@ -20,7 +20,19 @@ const scheduleData = [
     }, {
         title: "Kap7 Tournament vs Imperial 18U", date: "January 31, 2026"
 
-    }
+    },
+    {
+        title: "vs Santa Cruz 16U at Sacred Heart Prep",
+        date: "February 22, 2026",
+    },
+    {
+        title: "vs San Jose Foundation 16U at Sacred Heart Prep",
+        date: "February 22, 2026",
+    },
+    {
+        title: "Newport Invitational Tournament",
+        date: "March 14-15, 2026",
+    },
 ];
 
 export default scheduleData;

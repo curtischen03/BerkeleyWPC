@@ -11,7 +11,7 @@ const links = [
   { link: "/roster", label: "Roster" },
   { link: "/schedule", label: "Schedule" },
   { link: "/results", label: "Results" },
-  //{ link: "/photos", label: "Photos" },
+  { link: "/photos", label: "Photos" },
 ];
 
 export function HeaderSimple() {

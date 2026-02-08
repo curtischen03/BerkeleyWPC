@@ -1,10 +1,48 @@
-.img {
+.imgWrapper {
+  width: 100%;
   height: 300px;
-  width: 300px;
+  background-color: #85bbf1; /* Light grey placeholder */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  cursor: pointer;
+  display: block;
+  /* Fade-in effect when the image loads */
+  animation: fadeIn 0.5s ease-in;
 }
 
 .imgModal {
-  width: 70vw;
+  display: block;
+  max-height: 90vh;
+  width: auto;
   height: auto;
+  max-width: 100vw;
+  object-fit: contain;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Mobile override for 2-column height */
+@media (max-width: 768px) {
+  .imgWrapper {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+  }
+  .img {
+    height: 300px;
+    width: 300px;
+  }
 }
