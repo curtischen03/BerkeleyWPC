@@ -18,11 +18,19 @@ export default function RosterPage() {
         <Grid>
           {team.map((player, index) => (
             <Grid.Col span={{ base: 12, xs: 3 }} key={index}>
-              <CardWithoutPhoto
-                playerInfo={player}
-                style={{ height: "100%" }}
-                number={index + 1}
-              />
+              {player.number ? (
+                <CardWithoutPhoto
+                  playerInfo={player}
+                  style={{ height: "100%" }}
+                  number={player.number}
+                />
+              ) : (
+                <CardWithoutPhoto
+                  playerInfo={player}
+                  style={{ height: "100%" }}
+                  number={index + 1}
+                />
+              )}
             </Grid.Col>
           ))}
           ;

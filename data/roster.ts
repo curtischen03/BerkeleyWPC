@@ -63,7 +63,8 @@ const team = [
         name: "Chase Jackson",
         highSchool: "Redwood",
         class: "2030",
-        instagram: "chase_jackson22"
+        instagram: "chase_jackson22",
+        number: 20,
     }
 ];
 
