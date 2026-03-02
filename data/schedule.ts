@@ -30,16 +30,17 @@ const scheduleData = [
         date: "February 22, 2026",
     },
     {
-        title: "Newport Invitational Tournament",
-        date: "March 14-15, 2026",
-    },
-    {
         title: "Berkeley WPC vs CCU 16U",
         date: "March 1, 2026",
     },
     {
         title: "Berkeley WPC vs Stanford 16U or LAMO 16U",
         date: "March 1, 2026",
+    }
+    ,
+    {
+        title: "Newport Invitational Tournament",
+        date: "March 14-15, 2026",
     }
 ];
 
