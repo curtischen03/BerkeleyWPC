@@ -29,6 +29,16 @@ const resultsData = [
         date: "February 1, 2026",
         win: true
     },
+    {
+        title: "Game 7 W: Berkeley WPC 19, San Jose Foundation 16U 10",
+        date: "February 22, 2026",
+        win: true
+    },
+    {
+        title: "Game 8 W: Berkeley WPC 19, Santa Cruz 16U 2",
+        date: "February 22, 2026",
+        win: true
+    }
 ];
 
 export default resultsData;
