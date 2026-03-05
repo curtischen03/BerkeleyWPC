@@ -13,21 +13,21 @@ __metadata:
   linkType: hard
 
 "@emnapi/core@npm:^1.4.3":
-  version: 1.7.1
-  resolution: "@emnapi/core@npm:1.7.1"
+  version: 1.8.1
+  resolution: "@emnapi/core@npm:1.8.1"
   dependencies:
     "@emnapi/wasi-threads": "npm:1.1.0"
     tslib: "npm:^2.4.0"
-  checksum: 10c0/f3740be23440b439333e3ae3832163f60c96c4e35337f3220ceba88f36ee89a57a871d27c94eb7a9ff98a09911ed9a2089e477ab549f4d30029f8b907f84a351
+  checksum: 10c0/2c242f4b49779bac403e1cbcc98edacdb1c8ad36562408ba9a20663824669e930bc8493be46a2522d9dc946b8d96cd7073970bae914928c7671b5221c85b432e
   languageName: node
   linkType: hard
 
 "@emnapi/runtime@npm:^1.4.3, @emnapi/runtime@npm:^1.7.0":
-  version: 1.7.1
-  resolution: "@emnapi/runtime@npm:1.7.1"
+  version: 1.8.1
+  resolution: "@emnapi/runtime@npm:1.8.1"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: 10c0/26b851cd3e93877d8732a985a2ebf5152325bbacc6204ef5336a47359dedcc23faeb08cdfcb8bb389b5401b3e894b882bc1a1e55b4b7c1ed1e67c991a760ddd5
+  checksum: 10c0/f4929d75e37aafb24da77d2f58816761fe3f826aad2e37fa6d4421dac9060cbd5098eea1ac3c9ecc4526b89deb58153852fa432f87021dc57863f2ff726d713f
   languageName: node
   linkType: hard
 
@@ -474,10 +474,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/env@npm:16.0.10"
-  checksum: 10c0/6f2b5ba37733a49513ab3117c06f037fa962b4022fe2b4ba7801f830ab15974ad87ad8b47b6464fa5fcb3e9a3247b25f657ec97ae6eed1156b5736c6388246db
+"@next/env@npm:16.1.6":
+  version: 16.1.6
+  resolution: "@next/env@npm:16.1.6"
+  checksum: 10c0/ed7023edb94b9b2e5da3f9c99d08b614da9757c1edd0ecec792fce4d336b4f0c64db1a84955e07cfbd848b9e61c4118fff28f4098cd7b0a7f97814a90565ebe6
   languageName: node
   linkType: hard
 
@@ -490,58 +490,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-darwin-arm64@npm:16.0.10"
+"@next/swc-darwin-arm64@npm:16.1.6":
+  version: 16.1.6
+  resolution: "@next/swc-darwin-arm64@npm:16.1.6"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-darwin-x64@npm:16.0.10"
+"@next/swc-darwin-x64@npm:16.1.6":
+  version: 16.1.6
+  resolution: "@next/swc-darwin-x64@npm:16.1.6"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-linux-arm64-gnu@npm:16.0.10"
+"@next/swc-linux-arm64-gnu@npm:16.1.6":
+  version: 16.1.6
+  resolution: "@next/swc-linux-arm64-gnu@npm:16.1.6"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-linux-arm64-musl@npm:16.0.10"
+"@next/swc-linux-arm64-musl@npm:16.1.6":
+  version: 16.1.6
+  resolution: "@next/swc-linux-arm64-musl@npm:16.1.6"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-linux-x64-gnu@npm:16.0.10"
+"@next/swc-linux-x64-gnu@npm:16.1.6":
+  version: 16.1.6
+  resolution: "@next/swc-linux-x64-gnu@npm:16.1.6"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-linux-x64-musl@npm:16.0.10"
+"@next/swc-linux-x64-musl@npm:16.1.6":
+  version: 16.1.6
+  resolution: "@next/swc-linux-x64-musl@npm:16.1.6"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-win32-arm64-msvc@npm:16.0.10"
+"@next/swc-win32-arm64-msvc@npm:16.1.6":
+  version: 16.1.6
+  resolution: "@next/swc-win32-arm64-msvc@npm:16.1.6"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-win32-x64-msvc@npm:16.0.10"
+"@next/swc-win32-x64-msvc@npm:16.1.6":
+  version: 16.1.6
+  resolution: "@next/swc-win32-x64-msvc@npm:16.1.6"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -591,6 +591,68 @@ __metadata:
   version: 1.15.0
   resolution: "@rushstack/eslint-patch@npm:1.15.0"
   checksum: 10c0/b2aeae0c6228981c40eff7a3cf9fc1c4342f8fc7a0102d8b2b3d3f66137461b1cd2e3c22d9aa6bcde43f227c5e4e698be33ac145d356797774f212da496c0e9c
+  languageName: node
+  linkType: hard
+
+"@supabase/auth-js@npm:2.98.0":
+  version: 2.98.0
+  resolution: "@supabase/auth-js@npm:2.98.0"
+  dependencies:
+    tslib: "npm:2.8.1"
+  checksum: 10c0/8ab7de82e172086e2204ab9e115befc6cf73bd8af84ef967eb1371acebb5856c013b771646584ee37dbb301f1f51fde5971fae067573ac1de050bcd6e4b1fa39
+  languageName: node
+  linkType: hard
+
+"@supabase/functions-js@npm:2.98.0":
+  version: 2.98.0
+  resolution: "@supabase/functions-js@npm:2.98.0"
+  dependencies:
+    tslib: "npm:2.8.1"
+  checksum: 10c0/7c7c26a056b66f09e1fce7c3d303b9d8f32dad2eef1141d78074388bddeb57a6e9bfaed1a94c1ea75d777916a2237887f4751a6d7e8429b4a4401e840d8ffb1d
+  languageName: node
+  linkType: hard
+
+"@supabase/postgrest-js@npm:2.98.0":
+  version: 2.98.0
+  resolution: "@supabase/postgrest-js@npm:2.98.0"
+  dependencies:
+    tslib: "npm:2.8.1"
+  checksum: 10c0/2f17932f0c56ce1151fb1b887b3c3d90728efb2431b7cbdcf4d23a2c8385f3b84daf4a221a8df880459905c6f7a7d1ddc53f61d0fef9ae4af30b539dbe1f5f15
+  languageName: node
+  linkType: hard
+
+"@supabase/realtime-js@npm:2.98.0":
+  version: 2.98.0
+  resolution: "@supabase/realtime-js@npm:2.98.0"
+  dependencies:
+    "@types/phoenix": "npm:^1.6.6"
+    "@types/ws": "npm:^8.18.1"
+    tslib: "npm:2.8.1"
+    ws: "npm:^8.18.2"
+  checksum: 10c0/f9736f7a9a60e5c8bb6d70ac695a8a652f7a819ef790d6a870a4aad8ed92c76b75a24135478c3d520d36e1a7d90eee3e2e7c11e2515e33c78b95f5390dea628d
+  languageName: node
+  linkType: hard
+
+"@supabase/storage-js@npm:2.98.0":
+  version: 2.98.0
+  resolution: "@supabase/storage-js@npm:2.98.0"
+  dependencies:
+    iceberg-js: "npm:^0.8.1"
+    tslib: "npm:2.8.1"
+  checksum: 10c0/c609814c233094cbc0f7571b9b02f3d60f2f28414ab6f556de59753ed9fa9b2394636749bad5d83e2c1fe098427951dab3351a66e7e3ae145ad6c2c17f6b236c
+  languageName: node
+  linkType: hard
+
+"@supabase/supabase-js@npm:^2.98.0":
+  version: 2.98.0
+  resolution: "@supabase/supabase-js@npm:2.98.0"
+  dependencies:
+    "@supabase/auth-js": "npm:2.98.0"
+    "@supabase/functions-js": "npm:2.98.0"
+    "@supabase/postgrest-js": "npm:2.98.0"
+    "@supabase/realtime-js": "npm:2.98.0"
+    "@supabase/storage-js": "npm:2.98.0"
+  checksum: 10c0/de55be67e7d2d0c634473d5de1ecf7e6a7498f1821201a2b8a06b323a1dfa85aca1384e575b46740511967c324a1f551fac01e21817ee9f867ba2e975f907e2b
   languageName: node
   linkType: hard
 
@@ -651,12 +713,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:24.3.3":
+"@types/node@npm:*, @types/node@npm:24.3.3":
   version: 24.3.3
   resolution: "@types/node@npm:24.3.3"
   dependencies:
     undici-types: "npm:~7.10.0"
   checksum: 10c0/5324108314b3d9abaafd82ea04a91ea6904580c1fbe47c52600881ae250fef3b2d3d28c7d68cb979b07241d29fe889b66bd9f92346902bea65a3e562937c7d9a
+  languageName: node
+  linkType: hard
+
+"@types/phoenix@npm:^1.6.6":
+  version: 1.6.7
+  resolution: "@types/phoenix@npm:1.6.7"
+  checksum: 10c0/0ff8b6dc7d3d8d4a94d5b6bb4f7792db0d40ddef0dd722651929925663bd6aade2a0d41453dbcf4a31bb65471a2c982b17ba3e43eb7abc31b50c20cc489364a4
   languageName: node
   linkType: hard
 
@@ -675,6 +744,15 @@ __metadata:
   dependencies:
     csstype: "npm:^3.0.2"
   checksum: 10c0/75e35b54883f5ed07d3b5cb16a4711b6dbb7ec6b74301bcb9bfa697c9d9fff022ec508e1719e7b2c69e2e8b042faac1125be7717b5e5e084f816a2c88e136920
+  languageName: node
+  linkType: hard
+
+"@types/ws@npm:^8.18.1":
+  version: 8.18.1
+  resolution: "@types/ws@npm:8.18.1"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: 10c0/61aff1129143fcc4312f083bc9e9e168aa3026b7dd6e70796276dcfb2c8211c4292603f9c4864fae702f2ed86e4abd4d38aa421831c2fd7f856c931a481afbab
   languageName: node
   linkType: hard
 
@@ -968,14 +1046,14 @@ __metadata:
   linkType: hard
 
 "ajv@npm:^6.12.4":
-  version: 6.12.6
-  resolution: "ajv@npm:6.12.6"
+  version: 6.14.0
+  resolution: "ajv@npm:6.14.0"
   dependencies:
     fast-deep-equal: "npm:^3.1.1"
     fast-json-stable-stringify: "npm:^2.0.0"
     json-schema-traverse: "npm:^0.4.1"
     uri-js: "npm:^4.2.2"
-  checksum: 10c0/41e23642cbe545889245b9d2a45854ebba51cda6c778ebced9649420d9205f2efb39cb43dbc41e358409223b1ea43303ae4839db682c848b891e4811da1a5a71
+  checksum: 10c0/a2bc39b0555dc9802c899f86990eb8eed6e366cddbf65be43d5aa7e4f3c4e1a199d5460fd7ca4fb3d864000dbbc049253b72faa83b3b30e641ca52cb29a68c22
   languageName: node
   linkType: hard
 
@@ -1153,6 +1231,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"baseline-browser-mapping@npm:^2.8.3":
+  version: 2.10.0
+  resolution: "baseline-browser-mapping@npm:2.10.0"
+  bin:
+    baseline-browser-mapping: dist/cli.cjs
+  checksum: 10c0/da9c3ec0fcd7f325226a47d2142794d41706b6e0a405718a2c15410bbdb72aacadd65738bedef558c6f1b106ed19458cb25b06f63b66df2c284799905dbbd003
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.12
   resolution: "brace-expansion@npm:1.1.12"
@@ -1163,7 +1250,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"brace-expansion@npm:^2.0.1":
+"brace-expansion@npm:^2.0.2":
   version: 2.0.2
   resolution: "brace-expansion@npm:2.0.2"
   dependencies:
@@ -2171,6 +2258,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"iceberg-js@npm:^0.8.1":
+  version: 0.8.1
+  resolution: "iceberg-js@npm:0.8.1"
+  checksum: 10c0/e504da64cc26e8ad7c5344353a7203c671a740c14eb6086f20505f5e9739cab774493e616032530c962df97f2a855115cc2e89a47dd81581df5917b21a69ec48
+  languageName: node
+  linkType: hard
+
 "ignore@npm:^5.2.0":
   version: 5.3.2
   resolution: "ignore@npm:5.3.2"
@@ -2613,6 +2707,7 @@ __metadata:
   dependencies:
     "@mantine/core": "npm:8.3.9"
     "@mantine/hooks": "npm:8.3.9"
+    "@supabase/supabase-js": "npm:^2.98.0"
     "@tabler/icons-react": "npm:^3.35.0"
     "@types/node": "npm:24.3.3"
     "@types/react": "npm:19.1.13"
@@ -2654,20 +2749,20 @@ __metadata:
   linkType: hard
 
 "minimatch@npm:^3.1.2":
-  version: 3.1.2
-  resolution: "minimatch@npm:3.1.2"
+  version: 3.1.5
+  resolution: "minimatch@npm:3.1.5"
   dependencies:
     brace-expansion: "npm:^1.1.7"
-  checksum: 10c0/0262810a8fc2e72cca45d6fd86bd349eee435eb95ac6aa45c9ea2180e7ee875ef44c32b55b5973ceabe95ea12682f6e3725cbb63d7a2d1da3ae1163c8b210311
+  checksum: 10c0/2ecbdc0d33f07bddb0315a8b5afbcb761307a8778b48f0b312418ccbced99f104a2d17d8aca7573433c70e8ccd1c56823a441897a45e384ea76ef401a26ace70
   languageName: node
   linkType: hard
 
 "minimatch@npm:^9.0.4":
-  version: 9.0.5
-  resolution: "minimatch@npm:9.0.5"
+  version: 9.0.9
+  resolution: "minimatch@npm:9.0.9"
   dependencies:
-    brace-expansion: "npm:^2.0.1"
-  checksum: 10c0/de96cf5e35bdf0eab3e2c853522f98ffbe9a36c37797778d2665231ec1f20a9447a7e567cb640901f89e4daaa95ae5d70c65a9e8aa2bb0019b6facbc3c0575ed
+    brace-expansion: "npm:^2.0.2"
+  checksum: 10c0/0b6a58530dbb00361745aa6c8cffaba4c90f551afe7c734830bd95fd88ebf469dd7355a027824ea1d09e37181cfeb0a797fb17df60c15ac174303ac110eb7e86
   languageName: node
   linkType: hard
 
@@ -2711,19 +2806,20 @@ __metadata:
   linkType: hard
 
 "next@npm:^16.0.10":
-  version: 16.0.10
-  resolution: "next@npm:16.0.10"
+  version: 16.1.6
+  resolution: "next@npm:16.1.6"
   dependencies:
-    "@next/env": "npm:16.0.10"
-    "@next/swc-darwin-arm64": "npm:16.0.10"
-    "@next/swc-darwin-x64": "npm:16.0.10"
-    "@next/swc-linux-arm64-gnu": "npm:16.0.10"
-    "@next/swc-linux-arm64-musl": "npm:16.0.10"
-    "@next/swc-linux-x64-gnu": "npm:16.0.10"
-    "@next/swc-linux-x64-musl": "npm:16.0.10"
-    "@next/swc-win32-arm64-msvc": "npm:16.0.10"
-    "@next/swc-win32-x64-msvc": "npm:16.0.10"
+    "@next/env": "npm:16.1.6"
+    "@next/swc-darwin-arm64": "npm:16.1.6"
+    "@next/swc-darwin-x64": "npm:16.1.6"
+    "@next/swc-linux-arm64-gnu": "npm:16.1.6"
+    "@next/swc-linux-arm64-musl": "npm:16.1.6"
+    "@next/swc-linux-x64-gnu": "npm:16.1.6"
+    "@next/swc-linux-x64-musl": "npm:16.1.6"
+    "@next/swc-win32-arm64-msvc": "npm:16.1.6"
+    "@next/swc-win32-x64-msvc": "npm:16.1.6"
     "@swc/helpers": "npm:0.5.15"
+    baseline-browser-mapping: "npm:^2.8.3"
     caniuse-lite: "npm:^1.0.30001579"
     postcss: "npm:8.4.31"
     sharp: "npm:^0.34.4"
@@ -2765,7 +2861,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 10c0/c0e42bfaa0d38b0ee9a7fc54c748da2dfd807a76d75278b4c4f06768965d7b1035b836cae45e24a074dcf156a13c0fa555caa652886cc0f93e8be2b296dfbb51
+  checksum: 10c0/543766bf879bb5a5d454dc18cb302953270a92efba1d01dd028ea83c64b69573ce7d6e6c3759ecbaabec0a84131b0237263c24d1ccd7c8a97205e776dcd34e0b
   languageName: node
   linkType: hard
 
@@ -3734,7 +3830,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.0, tslib@npm:^2.1.0, tslib@npm:^2.4.0, tslib@npm:^2.8.0":
+"tslib@npm:2.8.1, tslib@npm:^2.0.0, tslib@npm:^2.1.0, tslib@npm:^2.4.0, tslib@npm:^2.8.0":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
@@ -4077,6 +4173,21 @@ __metadata:
   version: 1.2.5
   resolution: "word-wrap@npm:1.2.5"
   checksum: 10c0/e0e4a1ca27599c92a6ca4c32260e8a92e8a44f4ef6ef93f803f8ed823f486e0889fc0b93be4db59c8d51b3064951d25e43d434e95dc8c960cc3a63d65d00ba20
+  languageName: node
+  linkType: hard
+
+"ws@npm:^8.18.2":
+  version: 8.19.0
+  resolution: "ws@npm:8.19.0"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ">=5.0.2"
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 10c0/4741d9b9bc3f9c791880882414f96e36b8b254e34d4b503279d6400d9a4b87a033834856dbdd94ee4b637944df17ea8afc4bce0ff4a1560d2166be8855da5b04
   languageName: node
   linkType: hard
 

@@ -1,9 +1,27 @@
 "use client";
+import React, { useEffect, useState } from "react";
 import { Container, Timeline, Text, Title } from "@mantine/core";
 import Image from "next/image";
-import scheduleData from "../../data/schedule";
+import { supabase } from "../../utils/supabase-client";
 
+interface Schedule {
+  id: string;
+  title: string;
+  event_date: string;
+}
 export default function SchedulePage() {
+  const [scheduleData, setScheduleData] = useState<Schedule[]>([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const { error, data } = await supabase.from("bwpcschedule").select("*");
+      if (error) {
+        console.error("Error fetching schedule:", error);
+        return;
+      }
+      setScheduleData(data);
+    };
+    fetchData();
+  }, []);
   const items = scheduleData.map((item, index) => (
     <Timeline.Item
       key={index}
@@ -15,7 +33,7 @@ export default function SchedulePage() {
       title={item.title}
     >
       <Text c="dimmed" size="sm">
-        {item.date}
+        {item.event_date}
       </Text>
     </Timeline.Item>
   ));
